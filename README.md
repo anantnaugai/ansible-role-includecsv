@@ -1,3 +1,4 @@
+[![CircleCI](https://circleci.com/gh/anantnaugai/ansible-role-includecsv.svg?style=shield)](https://circleci.com/gh/anantnaugai/ansible-role-includecsv)
 # Ansible Role: include_csv
 
 This role contains no tasks, but provides the ``include_csv`` module which loads
