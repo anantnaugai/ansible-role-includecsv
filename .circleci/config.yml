@@ -6,7 +6,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/python:2.7.10
+      - image: circleci/python:2.7-jessie
 
     working_directory: ~/ansible-role-includecsv
 
@@ -23,7 +23,7 @@ jobs:
       - run:
           name: install dependencies
           command: |
-            python -m venv venv
+            python -m virtualenv venv
             . venv/bin/activate
             pip install -r requirements.txt
 
