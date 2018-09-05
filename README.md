@@ -50,7 +50,7 @@ For example, the data for the above CSV file can be accessed as follows:
 - debug: msg="{{ fruits }}"
 ```
 
-```python
+```
 ok: [localhost] => {
   "msg": "[{u'price': u'100', u'id': u'0', u'name': u'apple'}, {u'price': u'200', u'id': u'1', u'name': u'banana'}, {u'price': u'300', u'id': u'2', u'name': u'cherry'}, {u'price': u'400', u'id': u'3', u'name': u'durian'}]"
   }
