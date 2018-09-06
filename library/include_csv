@@ -86,7 +86,6 @@ def main():
             'delimiter': dict(required=False, default=','),
             'quotechar': dict(required=False, default='"'),
         },
-        check_invalid_arguments=False,
         supports_check_mode=True,
     )
 
