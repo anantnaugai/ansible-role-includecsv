@@ -34,7 +34,11 @@ jobs:
 
       # run flake8 for now!
       - run:
-          name: run tests
+          name: run flake8 tests
           command: |
             . venv/bin/activate
             flake8 .
+      - run:
+          name: run pytest
+          command: |
+            pytest .

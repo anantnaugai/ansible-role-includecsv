@@ -2,9 +2,9 @@ import os
 import subprocess
 from io import StringIO
 import csv
-from csv import *  # this should import your custom parser instead
+from csv import reader  # this should import your custom parser instead
 import json
-import pytest
+
 
 # DEFAULT GIVEN
 test_folder = os.path.abspath(os.path.join(os.path.dirname(__file__)))
@@ -47,6 +47,7 @@ def update_args_json():
 
     with open(ARGS_JSON_PATH, "w") as jsonFile:
         json.dump(data, jsonFile)
+
 
 def test_include_csv():
     # GIVEN & WHEN
