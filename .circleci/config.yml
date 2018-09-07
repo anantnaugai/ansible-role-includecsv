@@ -42,4 +42,5 @@ jobs:
           name: run pytest
           command: |
             . venv/bin/activate
-            pytest .
+            pytest --cov=.
+            codecov

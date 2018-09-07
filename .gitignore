@@ -12,3 +12,6 @@ venv/*
 
 # Ignore pytest cache
 .pytest_cache/*
+
+#Ignore .coverage
+.coverage
