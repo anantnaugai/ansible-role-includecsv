@@ -9,3 +9,6 @@
 
 # Ignore virtualenv directory contents
 venv/*
+
+# Ignore pytest cache
+.pytest_cache/*
